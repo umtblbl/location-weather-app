@@ -18,7 +18,7 @@ MVP + Dagger2 + RxJava + Retrofit + EventBus + ButterKnife + Gson + Picasso + De
 - **AppDataManager.java:** Servis ve SharedPreferences olaylarını tek bir sınıftan kontrol edebilmemizi sağlayan class. Bu sınıf sayesinde
 ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sınıflarda @Inject edilerek sınıf nesnesine erişebiliyoruz.
 
-**Di:** Dagger2 modul ve componentlerinin bulunduğu klasör. DataManager nesnesini Dagger2 ile oluşturuyoruz. Bu sayede servis ve preferences işlemlerini kolay bir şekilde yöneteibliyoruz.
+**Di:** Dagger2 modul ve componentlerinin bulunduğu klasör. DataManager nesnesini Dagger2 ile oluşturuyoruz. Bu sayede servis ve preferences işlemlerini kolay bir şekilde yönetebiliyoruz.
 - **DaggerComponent.java:** Dagger modülünü belirttiğim ve Dagger2'yi kullanacağım UI bileşenlerini belirlediğim sınıf.
 - **DaggerModule.java:** DataManager nesnesini kullanabilmemiz için servisleri, arayüzleri oluşturan sınıf.
 
