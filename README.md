@@ -9,7 +9,7 @@ MVP + Dagger2 + RxJava + Retrofit + EventBus + ButterKnife + Gson + Picasso + De
 - Şehirler listesinde en az 1 şehir seçili olacak şekilde düzenlendi.
 -----------------------------------------------------------------------------
 **Paketler, Sınıflar ve Açıklamalar:** (Alt bileşenler maddeler halinde açıklanmıştır)
-------------
+-------------
 **Data:** Projedeki Servis ve SharedPreferences gibi işlemlerinin bulunduğu klasör.
 - **Model:** Servis ile gelen bilgileri almak için model classlarımızın bulunduğu klasör.
 - **Service:** Sunucudan gelen response'u UI'ya aktarmak için kullandığım "ServiceCallBack" interface'ini ve servis implementasyonlarını bulunduran klasör.
@@ -25,8 +25,6 @@ ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sın�
 **EventBus:** Eventbus kütüphanesinde kullanacağım sınıfları bulundurduğum klasör.
 
 **Ui:** Activity, Adapter gibi bileşenlerin bulunduğu MVP mantığının işletildiği klasör.
-- **BaseActivity:** 
-  -**BaseActivity.java:** 
 
 **Utility:** Kullanıcıdan konum isteme, tarih tipi dönüşümü gibi işlemler için kullandığım sınıfları ve metodları bulunduran klasör.
 
