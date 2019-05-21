@@ -8,7 +8,7 @@ MVP + Dagger2 + RxJava + Retrofit + EventBus + ButterKnife + Gson + Picasso + De
 - Eğer seçili şehir varsa ancak konum açık ise kullanıcının bulunduğu konumun hava durumu gösteriliyor.
 - Şehirler listesinde en az 1 şehir seçili olacak şekilde düzenlendi.
 -----------------------------------------------------------------------------
-**Paketler, Sınıflar ve Açıklamalar:** (Alt bileşenler maddeler halinde gösterilmiştir)
+**Paketler, Sınıflar ve Açıklamalar:** (Alt bileşenler maddeler halinde açıklanmıştır)
 ------------
 **Data:** Projedeki Servis ve SharedPreferences gibi işlemlerinin bulunduğu klasör.
 - **Model:** Servis ile gelen bilgileri almak için model classlarımızın bulunduğu klasör.
