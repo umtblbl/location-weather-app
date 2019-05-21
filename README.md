@@ -19,8 +19,8 @@ MVP + Dagger2 + RxJava + Retrofit + EventBus + ButterKnife + Gson + Picasso + De
 ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sınıflarda @Inject edilerek sınıfın nesnesini kullanabiliyoruz.
 
 **Di:** Dagger2 modul ve componentlerinin bulunduğu klasör. DataManager nesnesini Dagger2 ile oluşturuyoruz. Bu sayede servis ve preferences işlemlerini kolay bir şekilde yöneteibliyoruz.
-- **DaggerComponent.java:"** Dagger modülünü belirttiğim ve Dagger2'yi kullanacağım UI bileşenlerini belirlediğim sınıf.
-- **DaggerModule.java:"** DataManager nesnesini kullanabilmemiz için servisleri, arayüzleri oluşturan sınıf.
+- **DaggerComponent.java:** Dagger modülünü belirttiğim ve Dagger2'yi kullanacağım UI bileşenlerini belirlediğim sınıf.
+- **DaggerModule.java:** DataManager nesnesini kullanabilmemiz için servisleri, arayüzleri oluşturan sınıf.
 
 **EventBus:** Eventbus kütüphanesinde kullanacağım sınıfları bulundurduğum klasör.
 
