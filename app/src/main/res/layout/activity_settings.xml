@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginVertical="20dp"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:id="@+id/view"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_below="@id/view"
+        android:layout_marginLeft="10dp"/>
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="300dp"
+        android:id="@+id/switchLocation"
+        android:layout_marginTop="7dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textView"
+        android:text="GPS"
+        android:backgroundTint="#FB8C00"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="17dp"
+        android:layout_below="@id/switchLocation"/>
+
+
+</RelativeLayout>
