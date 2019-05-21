@@ -26,7 +26,7 @@ ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sın�
 
 **Ui:** Activity, Adapter gibi bileşenlerin bulunduğu MVP mantığının işletildiği klasör.
 
-**Utility:** Kullanıcıdan konum isteme, tarih hesaplama... gibi işlemler için kullandığım sınıfları ve metodları bulunduran klasör.
+**Utility:** Kullanıcıdan konum isteme, tarih tipi dönüşümü gibi işlemler için kullandığım sınıfları ve metodları bulunduran klasör.
 
 
  
