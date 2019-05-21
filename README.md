@@ -25,6 +25,8 @@ ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sın�
 **EventBus:** Eventbus kütüphanesinde kullanacağım sınıfları bulundurduğum klasör.
 
 **Ui:** Activity, Adapter gibi bileşenlerin bulunduğu MVP mantığının işletildiği klasör.
+- **BaseActivity:** 
+  -**BaseActivity.java:** 
 
 **Utility:** Kullanıcıdan konum isteme, tarih tipi dönüşümü gibi işlemler için kullandığım sınıfları ve metodları bulunduran klasör.
 
