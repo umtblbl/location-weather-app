@@ -16,7 +16,7 @@ MVP + Dagger2 + RxJava + Retrofit + EventBus + ButterKnife + Gson + Picasso + De
 - **Pref:** Uygulamada GPS takibi, seçili şehirlerin takibi gibi işlemlerde kullandığımız SharedPreferences işlemlerini kolay bir şekilde yönetebilmemizi sağlayan, metodları sağlayan "PrefHelper" interface'ni ve PrefHelperde bulunan metodları implement ettiğimiz "AppPrefHelper" classını bulunduran klasör.
 - **DataManager.java:** ApiHelper ve PrefHelper interface'lerini imlement eden ve tüm metodlarını kullanabilmemizi sağlayan interface.
 - **AppDataManager.java:** Servis ve SharedPreferences olaylarını tek bir sınıftan kontrol edebilmemizi sağlayan class. Bu sınıf sayesinde
-ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sınıflarda @Inject edilerek sınıfın nesnesini kullanabiliyoruz.
+ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sınıflarda @Inject edilerek sınıf nesnesine erişebiliyoruz.
 
 **Di:** Dagger2 modul ve componentlerinin bulunduğu klasör. DataManager nesnesini Dagger2 ile oluşturuyoruz. Bu sayede servis ve preferences işlemlerini kolay bir şekilde yöneteibliyoruz.
 - **DaggerComponent.java:** Dagger modülünü belirttiğim ve Dagger2'yi kullanacağım UI bileşenlerini belirlediğim sınıf.
