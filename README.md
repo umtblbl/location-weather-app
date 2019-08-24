@@ -1,6 +1,5 @@
 # LocationWeatherApp
 
-![](https://media.giphy.com/media/VJr6cTFPBgAYGimacq/giphy.gif) 
 
 MVP + Dagger2 + RxJava + Retrofit + EventBus + ButterKnife + Gson + Picasso + Dexter + AndroidX
 -----------------------------------------------------------------------------
@@ -28,6 +27,7 @@ ApiHelper ve PrefHelper metodlarına ulaşabiliyoruz. Kullanılmak istenen sın�
 
 **Utility:** Kullanıcıdan konum isteme, tarih tipi dönüşümü gibi işlemler için kullandığım sınıfları ve metodları bulunduran klasör.
 
+![](https://media.giphy.com/media/VJr6cTFPBgAYGimacq/giphy.gif) 
 
  
 
